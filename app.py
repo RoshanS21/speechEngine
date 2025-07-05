@@ -8,7 +8,7 @@ import os
 tts = TTS(model_name="tts_models/en/vctk/vits", progress_bar=False, gpu=False)
 
 def synthesize(text, out_path):
-    tts.tts_to_file(text=text, file_path=out_path, speaker="p225")  # p225 is a deep male voice
+    tts.tts_to_file(text=text, file_path=out_path, speaker="p317")  # p317 is a deep male voice
 
 def play_audio(path):
     audio = AudioSegment.from_file(path)
