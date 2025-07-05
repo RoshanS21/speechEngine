@@ -1,3 +1,3 @@
 TTS==0.22.0
-PySimpleGUI==5.0.8.3
 pydub==0.25.1
+# Only core requirements for CLI TTS app. No GUI or PySimpleGUI needed.
